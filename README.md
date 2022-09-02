@@ -1,6 +1,8 @@
 # an-arch-installer
 its an arch installer that might work
 
+it probably wont work but if it does lucky you
+
 # how to use it
 when in a live env (usb/dvd) type in:
 
