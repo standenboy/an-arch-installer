@@ -186,8 +186,8 @@ systemctl enable NetworkManager
 echo all done
 sleep 3
 echo now we need to give your user access to the root account so the can access system files
-echo "$username ALL=(ALL:ALL) ALL" >> /etc/sudoers 
-echo "if you saw an error from that then please try and use visudo to add {username} ALL=(ALL:ALL) ALL"
+echo "${username} ALL=(ALL:ALL) ALL" >> /etc/sudoers 
+echo "if you saw an error from that then please try and use visudo to add ${username} ALL=(ALL:ALL) ALL"
 echo hopefull all that works
 sleep 3
 
